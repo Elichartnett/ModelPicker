@@ -9,18 +9,31 @@
 /* Begin PBXBuildFile section */
 		6233DC2229EF2EEC00F57F98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6233DC2129EF2EEC00F57F98 /* AppDelegate.swift */; };
 		6233DC2429EF2EEC00F57F98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6233DC2329EF2EEC00F57F98 /* ContentView.swift */; };
-		6233DC2629EF2EEC00F57F98 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6233DC2529EF2EEC00F57F98 /* Experience.rcproject */; };
 		6233DC2829EF2EEC00F57F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6233DC2729EF2EEC00F57F98 /* Assets.xcassets */; };
 		6233DC2B29EF2EEC00F57F98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6233DC2A29EF2EEC00F57F98 /* Preview Assets.xcassets */; };
+		6233DC3529EF300100F57F98 /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6233DC3229EF300000F57F98 /* robot_walk_idle.usdz */; };
+		6233DC3629EF300100F57F98 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6233DC3329EF300000F57F98 /* toy_biplane_idle.usdz */; };
+		6233DC3729EF300100F57F98 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6233DC3429EF300100F57F98 /* fender_stratocaster.usdz */; };
+		62FBB57429EF655500CAFB43 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB57329EF655500CAFB43 /* Model.swift */; };
+		62FBB57629EF688000CAFB43 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB57529EF688000CAFB43 /* ARViewContainer.swift */; };
+		62FBB57829EF68BE00CAFB43 /* ModelViewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB57729EF68BE00CAFB43 /* ModelViewPicker.swift */; };
+		62FBB57B29EF68F200CAFB43 /* PlacementButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBB57A29EF68F200CAFB43 /* PlacementButtonsView.swift */; };
+		62FBB57E29F4184700CAFB43 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 62FBB57D29F4184700CAFB43 /* FocusEntity */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6233DC1E29EF2EEC00F57F98 /* ModelPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6233DC2129EF2EEC00F57F98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6233DC2329EF2EEC00F57F98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6233DC2529EF2EEC00F57F98 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		6233DC2729EF2EEC00F57F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6233DC2A29EF2EEC00F57F98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6233DC3229EF300000F57F98 /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
+		6233DC3329EF300000F57F98 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		6233DC3429EF300100F57F98 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		62FBB57329EF655500CAFB43 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		62FBB57529EF688000CAFB43 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		62FBB57729EF68BE00CAFB43 /* ModelViewPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewPicker.swift; sourceTree = "<group>"; };
+		62FBB57A29EF68F200CAFB43 /* PlacementButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FBB57E29F4184700CAFB43 /* FocusEntity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				6233DC2129EF2EEC00F57F98 /* AppDelegate.swift */,
-				6233DC2329EF2EEC00F57F98 /* ContentView.swift */,
-				6233DC2529EF2EEC00F57F98 /* Experience.rcproject */,
+				62FBB57029EF651900CAFB43 /* Views */,
+				6233DC3129EF2FEC00F57F98 /* Models */,
 				6233DC2729EF2EEC00F57F98 /* Assets.xcassets */,
 				6233DC2929EF2EEC00F57F98 /* Preview Content */,
 			);
@@ -68,6 +82,28 @@
 				6233DC2A29EF2EEC00F57F98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6233DC3129EF2FEC00F57F98 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62FBB57329EF655500CAFB43 /* Model.swift */,
+				6233DC3429EF300100F57F98 /* fender_stratocaster.usdz */,
+				6233DC3229EF300000F57F98 /* robot_walk_idle.usdz */,
+				6233DC3329EF300000F57F98 /* toy_biplane_idle.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		62FBB57029EF651900CAFB43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6233DC2329EF2EEC00F57F98 /* ContentView.swift */,
+				62FBB57529EF688000CAFB43 /* ARViewContainer.swift */,
+				62FBB57729EF68BE00CAFB43 /* ModelViewPicker.swift */,
+				62FBB57A29EF68F200CAFB43 /* PlacementButtonsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +122,9 @@
 			dependencies = (
 			);
 			name = ModelPicker;
+			packageProductDependencies = (
+				62FBB57D29F4184700CAFB43 /* FocusEntity */,
+			);
 			productName = ModelPicker;
 			productReference = 6233DC1E29EF2EEC00F57F98 /* ModelPicker.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +153,9 @@
 				Base,
 			);
 			mainGroup = 6233DC1529EF2EEC00F57F98;
+			packageReferences = (
+				62FBB57C29F4184700CAFB43 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
 			productRefGroup = 6233DC1F29EF2EEC00F57F98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,8 +170,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6233DC3629EF300100F57F98 /* toy_biplane_idle.usdz in Resources */,
+				6233DC3729EF300100F57F98 /* fender_stratocaster.usdz in Resources */,
 				6233DC2B29EF2EEC00F57F98 /* Preview Assets.xcassets in Resources */,
 				6233DC2829EF2EEC00F57F98 /* Assets.xcassets in Resources */,
+				6233DC3529EF300100F57F98 /* robot_walk_idle.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +185,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62FBB57B29EF68F200CAFB43 /* PlacementButtonsView.swift in Sources */,
+				62FBB57429EF655500CAFB43 /* Model.swift in Sources */,
+				62FBB57629EF688000CAFB43 /* ARViewContainer.swift in Sources */,
+				62FBB57829EF68BE00CAFB43 /* ModelViewPicker.swift in Sources */,
 				6233DC2429EF2EEC00F57F98 /* ContentView.swift in Sources */,
 				6233DC2229EF2EEC00F57F98 /* AppDelegate.swift in Sources */,
-				6233DC2629EF2EEC00F57F98 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +329,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +361,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -347,6 +397,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		62FBB57C29F4184700CAFB43 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62FBB57D29F4184700CAFB43 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62FBB57C29F4184700CAFB43 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6233DC1629EF2EEC00F57F98 /* Project object */;
 }
